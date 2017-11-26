@@ -41,7 +41,7 @@ class Button():                                           # multiple unique butt
     def detect(self, onClick, onRelease, onHold=False):   # poll this method to detect button changes without detecting bounce
         stateDurration = time.monotonic() - self.changeStart # durration since last state change
         if self.bouncePeriod:                             # durring bounce period ( after a detected change )
-            if stateDurration > self.bounceTime:          # escape out state changes from being detected
+            if stateDurration > self.bounceTime:          # ignoring bounces from being detected
                 self.bouncePeriod = False                 # conclude bounce period
         else:                                             # where there is no concern of bounce
             currentState = self.button.value              # placehold current button state, may change if parsed multiple times
