@@ -10,6 +10,7 @@ The goal of the class is to introduce programming concepts and ideas to those st
 
 Terms that might be used during the class are covered in [Programing Terms](https://github.com/ManchesterMakerspace/IntroToPrograming/blob/master/programingTerms.md) and [Electronics Terms](https://github.com/ManchesterMakerspace/IntroToPrograming/blob/master/electronicsTerms.md)
 
+To experiment on your own at home click the green download button on the github page and download the zip. The zip will need to be extracted/decompressed with utility like 7zip to get the files on your computer. From there you can modify the code and upload it to a properly flashed CPX (see notes above)
 
 ## Troubleshooting Notes
 
